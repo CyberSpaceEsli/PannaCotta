@@ -18,9 +18,13 @@ public class MoveBall : MonoBehaviour
     {
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
-        Vector3 forceVector = new Vector3(-v, 0, h);
+        Vector3 forceVector = new Vector3(h, 0, v);
         forceVector.Normalize();
 
         this.GetComponent<Rigidbody>().AddForce(forceFactor * forceVector);
+    }
+
+    private void OnTriggerEnter(Collider other) {
+        print("I hate something");
     }
 }
