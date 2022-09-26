@@ -23,8 +23,4 @@ public class MoveBall : MonoBehaviour
 
         this.GetComponent<Rigidbody>().AddForce(forceFactor * forceVector);
     }
-
-    private void OnTriggerEnter(Collider other) {
-        print("I hate something");
-    }
 }
