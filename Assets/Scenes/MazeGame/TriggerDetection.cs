@@ -8,8 +8,6 @@ public class TriggerDetection : MonoBehaviour
 
     public GameObject player;
     public Text TextField;
-    Collider cylinder;
-    Collider endBox;
 
     bool finishedGame = false;
 
@@ -27,9 +25,11 @@ public class TriggerDetection : MonoBehaviour
             }
           }
           
-          player = GameObject.Find("Player");
-          Destroy(gameObject);
-          FindObjectOfType<GameControll>().EndGame();
+        player = GameObject.Find("Player");
+        Destroy(gameObject);
+        FindObjectOfType<GameControll>().EndGame();
+
         finishedGame = true;
     }
+
 }
