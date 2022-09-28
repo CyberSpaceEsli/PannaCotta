@@ -5,8 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class GameControll : MonoBehaviour
 {
+    public float restartDelay = 1f;
+
     public void EndGame() {
-        Restart();
+        Invoke("Restart", restartDelay);
     }
 
     void Restart() {
