@@ -30,7 +30,7 @@ public class Timer : MonoBehaviour
 
     void OnTriggerEnter(Collider other) {
         if (other.tag == "Hole" & other.tag =="Finished"){
-            timeValue = 0;
+            Time.timeScale = 0;
         }
     }
 
