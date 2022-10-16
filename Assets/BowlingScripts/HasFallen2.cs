@@ -39,64 +39,75 @@ public class HasFallen2 : MonoBehaviour
         {
             count++;
             done1 = true;
-         
+            ScoreManager.instance.AddPoint();
+
         }
 
         if (pin2.transform.rotation.eulerAngles.y > 40 && done2 == false)
         {
             count++;
             done2 = true;
+            ScoreManager.instance.AddPoint();
         }
 
         if (pin3.transform.rotation.eulerAngles.y > 40 && done3 == false)
         {
             count++;
             done3 = true;
+            ScoreManager.instance.AddPoint();
         }
 
         if (pin4.transform.rotation.eulerAngles.y > 40 && done4 == false)
         {
             count++;
             done4 = true;
+            ScoreManager.instance.AddPoint();
         }
 
         if (pin5.transform.rotation.eulerAngles.y > 40 && done5 == false)
         {
             count++;
             done5 = true;
+            ScoreManager.instance.AddPoint();
         }
 
         if (pin6.transform.rotation.eulerAngles.y > 40 && done6 == false)
         {
             count++;
             done6 = true;
+            ScoreManager.instance.AddPoint();
         }
 
         if (pin7.transform.rotation.eulerAngles.y > 40 && done7 == false)
         {
             count++;
             done7 = true;
+            ScoreManager.instance.AddPoint();
         }
 
         if (pin8.transform.rotation.eulerAngles.y > 40 && done8 == false)
         {
             count++;
             done8 = true;
+            ScoreManager.instance.AddPoint();
         }
 
         if (pin9.transform.rotation.eulerAngles.y > 40 && done9 == false)
         {
             count++;
             done9 = true;
+            ScoreManager.instance.AddPoint();
         }
 
         if (pin10.transform.rotation.eulerAngles.y > 40 && done10 == false)
         {
             count++;
             done10 = true;
+            ScoreManager.instance.AddPoint();
         }
 
         print("Es sind " +count + " pins gefallen");
+        
     }
 }
 
