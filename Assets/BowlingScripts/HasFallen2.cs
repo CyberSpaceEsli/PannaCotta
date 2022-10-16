@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-public class HasFallen : MonoBehaviour
+public class HasFallen2 : MonoBehaviour
 {
     public int count = 0;
     public bool done1 = false;
@@ -16,8 +15,8 @@ public class HasFallen : MonoBehaviour
     public bool done8 = false;
     public bool done9 = false;
     public bool done10 = false;
-    
-   
+
+
     public GameObject pin1;
     public GameObject pin2;
     public GameObject pin3;
@@ -29,6 +28,10 @@ public class HasFallen : MonoBehaviour
     public GameObject pin9;
     public GameObject pin10;
 
+    private void Start()
+    {
+        
+    }
     void Update()
 
     {
@@ -36,6 +39,7 @@ public class HasFallen : MonoBehaviour
         {
             count++;
             done1 = true;
+         
         }
 
         if (pin2.transform.rotation.eulerAngles.y > 40 && done2 == false)
@@ -92,6 +96,7 @@ public class HasFallen : MonoBehaviour
             done10 = true;
         }
 
-        print("Es sind " + count + " pins gefallen");
+        print("Es sind " +count + " pins gefallen");
     }
 }
+
