@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 84b9df97689a07f42b213e9b61e3dc62
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Poor Story
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 4650440a8c2b3394795d3f5062a26760, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
