@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/GameRoom.unity
     guid: bec213aa406be1d47b2367408dc8ebd1
   - enabled: 1
-    path: Assets/Pong Scene.unity
+    path: Assets/Scenes/Pong Scene.unity
     guid: 6b4e2c8de1e6c4da39ab7a6ee436e7f4
   - enabled: 1
     path: Assets/Scenes/MazeGame/MazeBallGame.unity
@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 0bb63e08d34f88c40866e08cfbe71405
+  - enabled: 1
+    path: Assets/Scenes/Swordgame.unity
+    guid: 963c4473e3781b747a0d42e1e506f06b
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 12b370b54e2f24942a18d99322892202, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 784494beb148420488d7efa0850d84e1, type: 2}

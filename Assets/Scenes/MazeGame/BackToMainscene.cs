@@ -16,7 +16,7 @@ public class BackToMainscene : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.M))
         {
-            SceneManager.LoadScene("GameRoom");
+            SceneManager.LoadScene(0);
         }
     }
 }

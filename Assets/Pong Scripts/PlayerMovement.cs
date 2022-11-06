@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {        
-        var JoyStickAxis = OVRInput.Get(OVRInput.RawAxis2D.LThumbstick, OVRInput.Controller.LTouch);
+        var JoyStickAxis = OVRInput.Get(OVRInput.RawAxis2D.RThumbstick, OVRInput.Controller.RTouch);
         float fixedY = player.position.y;
 
         player.position += (transform.right * JoyStickAxis.x + transform.forward * JoyStickAxis.y) * Time.deltaTime * speed;
