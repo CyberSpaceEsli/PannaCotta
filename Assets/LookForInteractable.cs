@@ -8,7 +8,8 @@ public class LookForInteractable : MonoBehaviour
 
     private void Update()
     {
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        Vector3 mid = new Vector3(Screen.width / 2, Screen.height / 2, 1);
+        Ray ray = Camera.main.ScreenPointToRay(mid);
         RaycastHit hit;
 
         if (Physics.Raycast(ray, out hit, interactionRange))
@@ -24,6 +25,7 @@ public class LookForInteractable : MonoBehaviour
 
                 if (Input.GetKeyDown(KeyCode.F))
                 {
+                    Debug.Log("hey");
                     interactable.Interact();
                 }
             }
