@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -30,6 +31,9 @@ public class GameManager : MonoBehaviour
             }
             if (Input.GetKeyDown(KeyCode.N)) {
                 NewGame();
+            }
+            if (Input.GetKeyDown(KeyCode.M)) {
+                SceneManager.LoadScene("GameRoom");
             }
         }
 
