@@ -14,7 +14,12 @@ public class resetScene : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.R))
+        // if (Input.GetKeyDown(KeyCode.R))
+        // {
+        //     SceneManager.LoadSceneAsync(
+        //         SceneManager.GetActiveScene().buildIndex);
+        // }
+         if (Input.GetButton("Fire2")) //B
         {
             SceneManager.LoadSceneAsync(
                 SceneManager.GetActiveScene().buildIndex);

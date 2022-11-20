@@ -26,13 +26,23 @@ public class GameManager : MonoBehaviour
 
         private void Update()
         {
-            if (Input.GetKeyDown(KeyCode.R)) {
+            // if (Input.GetKeyDown(KeyCode.R)) {
+            //     StartRound();
+            // }
+            // if (Input.GetKeyDown(KeyCode.N)) {
+            //     NewGame();
+            // }
+            // if (Input.GetKeyDown(KeyCode.M)) {
+            //     SceneManager.LoadScene("GameRoom");
+            // }
+
+            if (Input.GetButton("Fire1")) {
                 StartRound();
             }
-            if (Input.GetKeyDown(KeyCode.N)) {
+            if (Input.GetButton("Fire2")) {
                 NewGame();
             }
-            if (Input.GetKeyDown(KeyCode.M)) {
+            if (Input.GetButton("Fire3")) {
                 SceneManager.LoadScene("GameRoom");
             }
         }

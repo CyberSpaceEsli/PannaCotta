@@ -23,9 +23,9 @@ public class LookForInteractable : MonoBehaviour
                 string t = "Interact with " + name;
                 interactableHint.text = t;
 
-                if (Input.GetKeyDown(KeyCode.F))
+                if (Input.GetButton("Fire1"))
                 {
-                    Debug.Log("hey");
+                    // Debug.Log("hey");
                     interactable.Interact();
                 }
             }

@@ -19,7 +19,7 @@ public class returnToSpawn : MonoBehaviour
 
     void Update()
     {
-      if (Input.GetButtonDown("Jump"))
+      if (Input.GetButtonDown("Jump")) // Y
         {
             ball.velocity = Vector3.zero;
             ball.angularVelocity = Vector3.zero;

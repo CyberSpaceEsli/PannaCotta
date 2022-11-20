@@ -146,9 +146,11 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: -8017351526926061592, guid: 784494beb148420488d7efa0850d84e1, type: 2}
-  - {fileID: 11400000, guid: 12b370b54e2f24942a18d99322892202, type: 2}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 12b370b54e2f24942a18d99322892202, type: 2}
+  - {fileID: -8017351526926061592, guid: 784494beb148420488d7efa0850d84e1, type: 2}
+  - {fileID: 2548627428814466424, guid: 5116aab634cfd84489ac3ae8f1f160b7, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -628,7 +630,7 @@ PlayerSettings:
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
-    Standalone: 1
+    Standalone: 0
   il2cppCompilerConfiguration: {}
   managedStrippingLevel: {}
   incrementalIl2cppBuild: {}
@@ -641,7 +643,8 @@ PlayerSettings:
   gcIncremental: 1
   assemblyVersionValidation: 1
   gcWBarrierValidation: 0
-  apiCompatibilityLevelPerPlatform: {}
+  apiCompatibilityLevelPerPlatform:
+    Standalone: 3
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: Template_3D
